@@ -526,7 +526,7 @@ export default function Home() {
             </h2>
             <div className="w-24 sm:w-32 h-1 bg-gradient-to-r from-primary-500 via-accent-500 to-secondary-500 mx-auto rounded-full mb-4 sm:mb-6"></div>
             <p className="text-base sm:text-lg lg:text-xl text-slate-600 dark:text-slate-400 px-4">
-              Have a project in mind? Let's discuss how we can work together to create something extraordinary.
+              Have a project in mind? Let&apos;s discuss how we can work together to create something extraordinary.
             </p>
           </motion.div>
 
