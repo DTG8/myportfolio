@@ -72,6 +72,16 @@ const projects = [
     features: ['Responsive design', 'Email integration', 'Course management', 'Contact forms', 'WhatsApp integration'],
     color: 'from-accent-400 via-primary-400 to-secondary-400',
     url: 'https://derbykids.netlify.app/'
+  },
+  {
+    id: 6,
+    title: 'Tech Academy - Professional Training',
+    description: 'Modern, high-converting website for a tech academy offering DevOps, Cybersecurity, Applied AI & Generative AI, and Web Development programs. Features live-session focus, course highlights, pricing plans, and strong career-focused positioning.',
+    technologies: ['React', 'Vite', 'Tailwind CSS', 'React Icons'],
+    category: 'Education',
+    features: ['Course showcase', 'Pricing plans', 'Responsive design', 'Modern branding', 'Animated hero section'],
+    color: 'from-primary-500 via-blue-500 to-accent-500',
+    url: 'https://xtechacademy.netlify.app/'
   }
 ]
 
@@ -213,7 +223,7 @@ export default function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
             >
-              Web Developer & Cloud/DevOps Engineer
+              Cloud/DevOps Engineer & Web Developer
             </motion.p>
             
             <motion.p 
@@ -249,14 +259,13 @@ export default function Home() {
                 Get In Touch
               </motion.a>
               <motion.a 
-                href="/resume.pdf"
-                download
+                href="/resume"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="w-full sm:w-auto px-8 sm:px-10 py-3 sm:py-4 glass-strong rounded-xl font-semibold text-slate-700 dark:text-slate-300 hover:bg-primary-500/10 dark:hover:bg-primary-500/20 transition-all text-base sm:text-lg border-2 border-accent-500/30 text-center flex items-center justify-center gap-2"
               >
                 <ArrowDown size={20} />
-                Download Resume
+                View Resume
               </motion.a>
             </motion.div>
             
