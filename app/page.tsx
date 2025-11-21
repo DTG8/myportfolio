@@ -328,13 +328,13 @@ export default function Home() {
               className="space-y-4 sm:space-y-6"
             >
               <p className="text-base sm:text-lg lg:text-xl text-slate-700 dark:text-slate-300 leading-relaxed">
-                I'm <span className="text-primary-600 dark:text-primary-400 font-semibold">Mobolade Daniel Mayowa</span>, a passionate Web Developer and Cloud/DevOps Engineer with 4 years of experience building robust, scalable applications and managing cloud infrastructure.
+                I&apos;m <span className="text-primary-600 dark:text-primary-400 font-semibold">Mobolade Daniel Mayowa</span>, a passionate Web Developer and Cloud/DevOps Engineer with 4 years of experience building robust, scalable applications and managing cloud infrastructure.
               </p>
               <p className="text-sm sm:text-base lg:text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
                 My expertise spans full-stack development, cloud infrastructure management, and DevOps practices. I specialize in creating modern web applications using React, Next.js, and Node.js, while also managing complex cloud environments and monitoring systems.
               </p>
               <p className="text-sm sm:text-base lg:text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
-                I'm passionate about writing clean, maintainable code and implementing best practices in software development and infrastructure management. Every project is an opportunity to create something extraordinary.
+                I&apos;m passionate about writing clean, maintainable code and implementing best practices in software development and infrastructure management. Every project is an opportunity to create something extraordinary.
               </p>
               
               {/* Experience Timeline */}

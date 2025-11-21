@@ -60,7 +60,7 @@ export default function ContactForm() {
               <CheckCircle2 className="text-green-500 mx-auto mb-4 sm:mb-6" size={48} />
             </motion.div>
             <h3 className="text-2xl sm:text-3xl font-bold text-slate-800 dark:text-white mb-2 sm:mb-3">Message Sent!</h3>
-            <p className="text-slate-600 dark:text-slate-400 text-base sm:text-lg">I'll get back to you as soon as possible.</p>
+            <p className="text-slate-600 dark:text-slate-400 text-base sm:text-lg">I&apos;ll get back to you as soon as possible.</p>
           </motion.div>
         ) : (
           <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-6">
@@ -108,7 +108,7 @@ export default function ContactForm() {
                 onChange={handleChange}
                 required
                 className="w-full px-4 sm:px-5 py-3 sm:py-3.5 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-lg sm:rounded-xl text-slate-800 dark:text-slate-200 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all text-sm sm:text-base"
-                placeholder="What's this about?"
+                placeholder={"What's this about?"}
               />
             </div>
             <div>
