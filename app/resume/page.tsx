@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function ResumePage() {
   return (
-    <main className="min-h-screen section-gradient py-20 px-4 sm:px-6 lg:px-8">
+    <main className="resume-print min-h-screen section-gradient py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-5xl mx-auto glass-strong rounded-2xl sm:rounded-3xl p-6 sm:p-10 lg:p-12 shadow-2xl">
         {/* Header */}
         <header className="border-b border-slate-200 dark:border-slate-800 pb-6 sm:pb-8 mb-6 sm:mb-8 flex flex-col gap-4">
@@ -63,7 +63,7 @@ export default function ResumePage() {
             </div>
           </div>
 
-          <div className="flex flex-wrap gap-3 sm:gap-4">
+          <div className="flex flex-wrap gap-3 sm:gap-4 print-hidden">
             <a
               href="/"
               className="px-4 sm:px-5 py-2 rounded-lg border border-slate-300 dark:border-slate-700 text-xs sm:text-sm font-medium text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-900/60 transition-colors"
@@ -71,8 +71,7 @@ export default function ResumePage() {
               ← Back to Portfolio
             </a>
             <a
-              href="/resume.pdf"
-              download
+              href="/api/resume"
               className="px-4 sm:px-5 py-2 rounded-lg bg-gradient-to-r from-primary-500 via-accent-500 to-secondary-500 text-xs sm:text-sm font-semibold text-white hover:shadow-lg hover:shadow-primary-500/40 transition-all"
             >
               Download PDF Resume

@@ -65,3 +65,40 @@
     font-family: var(--font-inter), -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   }
 }
+
+/* Print-optimized resume */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  /* Hide global chrome when printing resume */
+  nav,
+  footer,
+  .no-print {
+    display: none !important;
+  }
+
+  .print-hidden {
+    display: none !important;
+  }
+
+  .resume-print {
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    background: #ffffff !important;
+  }
+
+  /* Show full URLs after link text on print */
+  .resume-print a[href^="http"]::after,
+  .resume-print a[href^="mailto"]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.7em;
+  }
+
+  @page {
+    size: A4;
+    margin: 1.2cm;
+  }
+}
